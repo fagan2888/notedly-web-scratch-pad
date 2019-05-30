@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 const Button = styled.button`
   display: block;
-  width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;

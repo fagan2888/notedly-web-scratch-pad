@@ -7,6 +7,8 @@ const Wrapper = styled.div`
     position: relative;
     height: calc(100% - 64px);
     width: 100%;
+    flex: auto;
+    flex-direction: column;
   }
 `;
 

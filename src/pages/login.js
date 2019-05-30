@@ -19,7 +19,6 @@ const Login = () => {
           onCompleted={({ signIn }) => {
             localStorage.setItem('token', signIn);
             client.resetStore();
-            client.writeData({ data: { isLoggedIn: true } });
           }}
         >
           {(signIn, { loading, error }) => {

@@ -8,6 +8,7 @@ import Feed from './feed';
 import Favorites from './favorites';
 import Note from './note';
 import Login from './login';
+import New from './new';
 
 const Pages = () => {
   return (
@@ -19,6 +20,7 @@ const Pages = () => {
         <Route path="/favorites/" component={Favorites} />
         <Route path="/note/:id" component={Note} />
         <Route path="/login" component={Login} />
+        <Route path="/new" component={New} />
       </Layout>
     </Router>
   );
